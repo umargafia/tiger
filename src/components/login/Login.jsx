@@ -41,7 +41,11 @@ const Login = () => {
           style={styles.inputStyle}
           icon="person"
           error={error.phoneNumber}
-          props={{ value: phone, onChangeText: handlePhoneChange }}
+          props={{
+            value: phone,
+            onChangeText: handlePhoneChange,
+            keyboardType: 'number-pad',
+          }}
         />
       )}
       <MyInput

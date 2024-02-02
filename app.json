@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0c2e9c"
+      "backgroundColor": "#0001fd"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
@@ -18,7 +18,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#fefefe"
       },
       "package": "com.mbeladata.mbeladata",
       "versionCode": 1

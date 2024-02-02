@@ -35,7 +35,7 @@ const WelcomePage = () => {
       <StatusBar style="light" />
       <View style={styles.container}>
         <ImageBackground
-          source={require('../../assets/background.png')}
+          source={require('../../assets/background.jpg')}
           style={styles.backgroundImage}
         >
           <LinearGradient
@@ -107,8 +107,8 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
   },
   image: {
-    width: '100%',
+    width: 200,
     height: 150,
-    resizeMode: 'cover',
+    resizeMode: 'contain',
   },
 });

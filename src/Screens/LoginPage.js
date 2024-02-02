@@ -23,7 +23,7 @@ const LoginPage = () => {
         <ScrollView contentContainerStyle={{ flex: 1 }}>
           <View style={styles.topContainer}>
             <ImageBackground
-              source={require('../../assets/background.png')}
+              source={require('../../assets/background.jpg')}
               style={styles.backgroundImage}
             ></ImageBackground>
           </View>
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   image: {
     height: 120,
     width: 300,
-    resizeMode: 'cover',
+    resizeMode: 'contain',
     marginTop: 2,
   },
 
