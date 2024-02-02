@@ -3,7 +3,7 @@ import { Dimensions, Platform } from 'react-native';
 export const Theme = () => {
   return {
     palette: {
-      primary: '#1e4368',
+      primary: '#0c2e9c',
       secondary: '#900eca',
       white: '#fefefe',
       black: '#424242',

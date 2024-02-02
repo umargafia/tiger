@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Tiger Data",
-    "slug": "tigerdata",
+    "name": "Mbeladata",
+    "slug": "Mbeladata",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,11 +9,9 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0c2e9c"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -22,14 +20,13 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.tigerdata.tigerdata",
+      "package": "com.mbeladata.mbeladata",
       "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-     
-    }
+    "extra": {},
+    "plugins": ["expo-secure-store"]
   }
 }

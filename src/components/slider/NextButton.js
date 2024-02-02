@@ -37,11 +37,7 @@ const NextButton = ({ percentage, scrollRef }) => {
     <View style={styles.container}>
       {isLast === false ? (
         <TouchableOpacity style={styles.button} onPress={handleNextPress}>
-          <MyIcon
-            name="ios-arrow-forward"
-            size={30}
-            color={theme.palette.white}
-          />
+          <MyIcon name="arrow-forward" size={30} color={theme.palette.white} />
         </TouchableOpacity>
       ) : (
         <MyButton

@@ -1,4 +1,4 @@
-const baseUrl = 'https://tigerdata.com.ng/';
+const baseUrl = 'https://mbeladata.com.ng/';
 
 export default URLS = () => {
   return {
